@@ -1,18 +1,35 @@
-## Getting Started
+## Coding Challenge due September 16
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Java:
+a) Create a function that reorders the digits of each numerical element in an array based on ascending (asc) or descending (desc) order.
 
-## Folder Structure
+Examples:
+reorderDigits([515, 341, 98, 44, 211], "asc") ➞ [155, 134, 89, 44, 112]
 
-The workspace contains two folders by default, where:
+reorderDigits([515, 341, 98, 44, 211], "desc") ➞ [551, 431, 98, 44, 211]
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+reorderDigits([63251, 78221], "asc") ➞ [12356, 12278]
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+reorderDigits([63251, 78221], "desc") ➞ [65321, 87221]
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+reorderDigits([1, 2, 3, 4], "asc") ➞ [1, 2, 3, 4]
 
-## Dependency Management
+reorderDigits([1, 2, 3, 4], "desc") ➞ [1, 2, 3, 4]
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Notes:
+Single-digit numbers should be ordered the same regardless of direction.
+Numbers in the array should be kept the same order.
+
+b) Write a function that returns true if you can partition an array into one element and the rest, such that this element is equal to the product of all other elements excluding itself.
+
+Examples:
+canPartition([2, 8, 4, 1]) ➞ true
+// 8 = 2 x 4 x 1
+
+canPartition([-1, -10, 1, -2, 20]) ➞ false
+
+canPartition([-1, -20, 5, -1, -2, 2]) ➞ true
+
+Notes:
+The array may contain duplicates.
+Multiple solutions can exist, any solution is sufficient to return true.
