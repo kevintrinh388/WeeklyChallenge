@@ -1,6 +1,7 @@
 ## Coding Challenge due September 16
 
-Java:
+Java
+
 a) Create a function that reorders the digits of each numerical element in an array based on ascending (asc) or descending (desc) order.
 
 Examples:
@@ -19,6 +20,8 @@ reorderDigits([1, 2, 3, 4], "desc") ➞ [1, 2, 3, 4]
 Notes:
 Single-digit numbers should be ordered the same regardless of direction.
 Numbers in the array should be kept the same order.
+
+---
 
 b) Write a function that returns true if you can partition an array into one element and the rest, such that this element is equal to the product of all other elements excluding itself.
 
