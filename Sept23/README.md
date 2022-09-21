@@ -20,6 +20,7 @@ Constraints
 1 ≤ every integer ≤ 10000
 The three integers in a single triplet are all distinct. That is, no two of them are equal.
 
+```
 Sample Input:
 3
 
@@ -35,6 +36,7 @@ Sample Output:
 10
 
 500
+```
 
 ---
 
@@ -57,6 +59,8 @@ Constraints
 1 ≤ |S| ≤ 1000, where |S| is the length of the string S.
 
 Example
+
+```
 Input:
 1
 
@@ -64,6 +68,7 @@ ab1231da
 
 Output:
 7
+```
 
 Explanation
 The digits in this string are 1, 2, 3 and 1. Hence, the sum of all of them is 7.
