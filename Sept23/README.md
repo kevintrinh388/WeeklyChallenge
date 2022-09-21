@@ -20,14 +20,20 @@ Constraints
 1 ≤ every integer ≤ 10000
 The three integers in a single triplet are all distinct. That is, no two of them are equal.
 
-Sample Input
+Sample Input:
 3
+
 1 2 3
+
 10 15 5
+
 100 999 500
-Sample Output
+
+Sample Output:
 2
+
 10
+
 500
 
 ---
@@ -53,7 +59,9 @@ Constraints
 Example
 Input:
 1
+
 ab1231da
+
 Output:
 7
 
